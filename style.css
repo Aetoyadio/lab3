@@ -1,0 +1,177 @@
+* {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+a {
+    text-decoration: none;
+}
+.button {
+    width: 200px;
+    border: 1px solid #0093E9;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    color: #C850C0;
+}
+.button:hover {
+    color: #FFCC70;
+}
+#button_hover:hover {
+    background-color: #0093E9;
+}
+.container {
+    width: 50%;
+    margin: 100px auto;
+    border: .5px solid #C850C0;
+    border-radius: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+}
+h1 + p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px;
+}
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+}
+form > div {
+    opacity: 0.9;
+}
+input {
+    width:50%;
+    height: 30px;
+    padding: 10px;
+}
+input[type="date" ]{
+    color: rgb(118, 118, 118);
+}
+input[type="radio"] {
+    width: 100px;
+}
+input[type="checkbox"]{
+    width: 20px;
+}
+label {
+    color: #ffffff;
+}
+ul, ol, h2, dl, dd, dt {
+    margin:20px 30px;
+    color: #ffffff;
+}
+/*4 page*/
+header {
+    position: sticky;
+    top: 0;
+    width: 100%; 
+    background-color: #C850C0;
+    padding: 20px;
+    z-index: 1;
+}
+.link li {
+    font-size: 30px;
+    list-style: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav {
+    justify-content: space-around;
+    display: flex;
+}
+
+.sidebar {
+    position: relative;
+    width: 25%;
+    float: left;
+    left: 10px;
+}
+p {
+    margin: 10px 20px;
+    color: #ffffff;
+}
+h3 {
+    color: #ffffff;
+}
+h3::first-letter {
+    font-size: 30px;
+    color: #C850C0;
+}
+table {
+    border-collapse: collapse;
+    color: #ffffff;
+}
+td, th {
+    text-align: left;
+    border: #ffffff 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+main {
+    float: right;
+    width: 75%;
+}
+img {
+    width: 50%;
+}
+.box  {
+    margin-bottom: 100px;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    color: #fff;
+    padding: 10px;
+}
+@media (max-width: 472px){
+    .sidebar {
+        width: 100%;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 742px){
+    .sidebar {
+        width: 100%;
+    }
+    table {
+        margin: auto;
+    }
+    h3 {
+        text-align: center;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width: 990px){
+    .sidebar {
+        width: 100%;
+    }
+    table {
+        margin: auto;
+    }
+    h3 {
+        text-align: center;
+    }
+    main {
+        float: none;
+        width: 100%;
+    }
+}
